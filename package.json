@@ -1,10 +1,24 @@
 {
   "name": "my-se-counter",
   "version": "1.0.0",
-  "description": "SmartEmailing counter serverless function for Vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiosdar/my-se-counter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiosdar/my-se-counter/issues"
+  },
+  "homepage": "https://github.com/fiosdar/my-se-counter#readme",
+  "description": "",
   "type": "module",
   "engines": {
     "node": "18.x"
-  },
-  "license": "MIT"
+  }
 }
