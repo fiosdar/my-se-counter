@@ -2,9 +2,9 @@
   "name": "my-se-counter",
   "version": "1.0.0",
   "description": "SmartEmailing counter serverless function for Vercel",
-  "type": "module",                 // 👈 tells Node & Vercel we are using ES-modules
+  "type": "module",
   "engines": {
-    "node": "18.x"                  // guarantees the right runtime on Vercel
+    "node": "18.x"
   },
   "license": "MIT"
 }
