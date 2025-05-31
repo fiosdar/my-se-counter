@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const { robert.furiel@saplinq.org, px85hb4szonygzf4lq3wdntijhh69ml8n2ju7g82} = process.env;
+  const { SMARTEMAIL_LOGIN, SMARTEMAIL_TOKEN} = process.env;
   if (!SMARTEMAIL_LOGIN || !SMARTEMAIL_TOKEN) {
     return res.status(500).send('Missing credentials');
   }
